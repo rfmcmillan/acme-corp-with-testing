@@ -43,7 +43,7 @@ const syncAndSeed = async () => {
   await moe.save();
   return { employees: { curly, moe, lucy }, departments: { hr, engineering } };
 };
-
+//test
 module.exports = {
   db,
   syncAndSeed,
